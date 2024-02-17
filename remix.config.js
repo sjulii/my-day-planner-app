@@ -5,4 +5,7 @@ export default {
   // assetsBuildDirectory: "public/build",
   // publicPath: "/build/",
   // serverBuildPath: "build/index.js",
+  serverDependenciesToBundle: ["remix-i18next", "accept-language-parser"],
+  serverModuleFormat: "esm",
+  serverPlatform: "node",
 };
